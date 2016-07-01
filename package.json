@@ -1,0 +1,46 @@
+{
+  "name": "mild-sass",
+  "version": "0.0.0",
+  "description": "Mild sass",
+  "license": "MIT",
+  "repository": "iguntur/mild-sass",
+  "author": {
+    "name": "Guntur Poetra",
+    "email": "poetra.guntur@gmail.com",
+    "url": "http://guntur.starmediateknik.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulp",
+    "gulp-sass",
+    "sass",
+    "plugins",
+    "gulp-autoprexier",
+    "autoprexier",
+    "lazy"
+  ],
+  "dependencies": {
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "mild-config": "^0.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "gulp": "^3.9.1",
+    "xo": "^0.17.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
